@@ -1,0 +1,83 @@
+<!DOCTYOE html>
+<html lang="en">
+ <head>
+   <title>Survey Form</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="base.css">
+ </head>
+
+ <body>
+  <header>
+   <h1 id="title">Your Top Dealz Survey Form</h1>
+   <p id="description">Thankyou for taking the time to help us improve the plateform</p>
+  </header>
+  <div>
+<form id="survay-form" action="">
+  <fieldset>
+  <label for="name-label">Name:
+    <input type="text" id="name" name="name" placeholder="Enter your name" required/>
+  </label>
+  <label for="email-label">Email:
+    <input type="email" id="email" name="email" placeholder="Enter your email" required/>
+  </label>
+  <label for="number-label">Age:(Optional)
+    <input type="number" name="number" id="number" min="14" max="120" placeholder="Age"/>
+  </label>
+</fieldset>
+<fieldset>
+  <label>Which option best describe your current role?
+    <select id="dropdown" name="dropdown">
+      <option disabled selected value="">Select current role</option>
+      <option value="1">Student</option>
+      <option value="2">Teacher</option>
+      <option value="3">House Wife</option>
+      <option value="4">Prefer not to say</option>
+      <option value="5">Other</option>
+    </select>
+  </label>
+  <label>Would you recommand Yourtopdealz to your friends?
+  <label>
+    <input class="inline" type="radio" name="recomandation" checked/> Diffinately
+  </label>
+  <label>
+    <input class="inline" type="radio" name="recomandation" /> May be
+  </label>
+  <label>
+    <input class="inline" type="radio" name="recomandation"/> Not sure
+  </label>
+  </label>
+<label for="referrer">What is your favourite product on Yourtopdealz?
+  <select name="referrer" id="referrer">
+    <option value="">Select an option</option>
+    <option value="1">Bluetooth Portable Speaker</option>
+    <option value="2">Toys</option>
+    <option value="3">Glasses</option>
+    <option value="4">Travel Makeup Bags</option>
+    <option value="5">Other</option>
+  </select>
+</label>
+</fieldset>
+
+<fieldset>
+  <label>What would you like to see improved? (Check all that apply)
+  <label><input class="inline" type="checkbox" value="Website or app performance" /> Website or app performance</label>
+  <label><input class="inline" type="checkbox" value="Product availability" /> Product availability</label>
+  <label><input class="inline" type="checkbox" value="Delivery options and speed" /> Delivery options and speed</label>
+  <label><input class="inline" type="checkbox" value="Customer service" /> Customer service</label>
+  <label><input class="inline" type="checkbox" value="Pricing and promotions" /> Pricing and promotions</label>
+  <label><input class="inline" type="checkbox" value="Videos" /> Videos</label>
+  
+</label>
+  <label for="comments">Any comments or suggestions?
+    <textarea id="comment" name="comment" rows="5" cols="50" placeholder="Enter your comment here..."></textarea>
+  </label>
+</fieldset>
+<input type="submit" value="Submit"/>
+</form>
+
+</div>
+  </body>
+
+ </html>
+   
